@@ -2,7 +2,8 @@ include(ExternalProject)
 
 SET(BOOST_PROJECT       "extern_boost")
 SET(BOOST_VER           "1.41.0")
-SET(BOOST_URL "https://jaist.dl.sourceforge.net/project/boost/boost/1.41.0/boost_1_41_0.tar.gz")
+#SET(BOOST_URL "https://jaist.dl.sourceforge.net/project/boost/boost/1.41.0/boost_1_41_0.tar.gz")
+SET(BOOST_URL "https://cfhcable.dl.sourceforge.net/project/boost/boost/1.41.0/boost_1_41_0.tar.gz")
 SET(BOOST_SOURCES_DIR ${THIRD_PARTY_PATH}/boost)
 SET(BOOST_DOWNLOAD_DIR  "${BOOST_SOURCES_DIR}/src/")
 
